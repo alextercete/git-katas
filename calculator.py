@@ -1,12 +1,12 @@
 class Calculator:
-    def add(self, a, b):
-        return a+b
+    def add(self, operand1, operand2):
+        return operand1+operand2
 
-    def subtract(self, a, b):
-        return a-b
+    def subtract(self, operand1, operand2):
+        return operand1-operand2
 
-    def multiply(self, a, b):
-        return a*b
+    def multiply(self, operand1, operand2):
+        return operand1*operand2
 
-    def divide(self, a, b):
-        return a/b
+    def divide(self, operand1, operand2):
+        return operand1/operand2
